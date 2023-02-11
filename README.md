@@ -24,7 +24,7 @@ Original repository will be periodically updated and you will need to manually s
 In your local machine, set the upstream to original repository
 ```bash
 cd <your-local-repository>
-git remote add upstream https://github.com/ESD-Laboratory/Backend-Practice
+git remote add upstream https://github.com/ESD-Laboratory/Frontend-Practice
 ```
 then checkout to `main` branch and pull the changes from the upstream
 ```bash
