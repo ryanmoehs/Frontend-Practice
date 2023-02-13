@@ -1,1 +1,29 @@
 /* Your code here */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation: bouncingBall 1s infinite;
+}
+
+@keyframes bouncingBall {
+    0%{
+        top: 0vh;
+        animation-timing-function: ease-in;
+    }
+    50%{
+        top: 50vh;
+        animation-timing-function: ease-out;
+    }
+    100%{
+        top: 0vh;
+    }
+}

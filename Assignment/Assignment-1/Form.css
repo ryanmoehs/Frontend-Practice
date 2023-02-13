@@ -1,1 +1,58 @@
 /* Your code here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: bisque;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 1em;
+}
+input[type=text],
+input[type=email]{
+    display: block;
+    width: 50vh;
+    padding: 1em;
+    margin: .5em 0;
+    height: 50%;
+    border: none;
+    border-radius: 0.5vh;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 0 ;
+}
+
+.hobi{
+    display: block;
+    margin: 1em 0;
+}
+
+textarea{
+    width: 50vh;
+    height: 10vh;
+}
+
+input[type=button]{
+    width: 50vh;
+    height: 5vh;
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+}

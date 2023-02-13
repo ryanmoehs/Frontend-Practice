@@ -4,13 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Assignment 1 ESD - ryan</title>
   <link rel="stylesheet" href="./Form.css">
 </head>
 <body>
   <h1>Form Registrasi</h1>
-  <form action="">
+  <form action="#">
     <!-- Your code here -->
+    <!-- <div class="nama"> -->
+      <div class="isian">
+        <label>Nama : </label>
+        <input type="text" name="Nama" placeholder="Isi nama kamu" required>
+        <label>Alamat : </label>
+        <input type="text" name="Alamat"  placeholder="Isi alamat kamu" required>
+        <label>Email : </label>
+        <input type="email" name="Email"  placeholder="Isi email kamu"  required>
+      </div>
+    <!-- </div> -->
+    <!-- <div class="alamat"> -->
+    <!-- </div> -->
+    <!-- <div class="email"> -->
+    <!-- </div> -->
+    <div class="gender">
+      <label for="gender">Gender :</label>
+      <input type="radio" name="gender">
+      <label>Male</label>
+      <input type="radio" name="gender">
+      <label>Female</label>
+    </div>
+
+    <div class="hobi">
+      <label for="lhobi">Hobby :</label>
+      <div class="membaca">
+        <input type="checkbox" name="gender">
+        <label>Membaca</label>
+      </div>
+      <div class="menulis">
+        <input type="checkbox" name="gender">
+        <label>Menulis</label>
+      </div>
+      <div class="menggambar">
+        <input type="checkbox" name="gender">
+        <label>Menggambar</label>
+      </div>
+    </div>
+    <div class="bio">
+      <textarea name="bio"></textarea>
+    </div>
+    <input type="button" value="Submit" placeholder="Isi bio kamu">
   </form>
 </body>
 </html>
