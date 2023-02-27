@@ -30,6 +30,7 @@ then checkout to `main` branch and pull the changes from the upstream
 ```bash
 git checkout main
 git pull upstream main
+npm install
 ```
 then push the changes to your forked repository
 ```bash
