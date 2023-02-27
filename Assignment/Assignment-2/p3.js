@@ -19,5 +19,7 @@ Output: ["Short", "Longer", "Longest"]
 
 function sortByLength(arr) {
     // Your code here
+    let sorted = arr.sort((a,b) => a.length - b.length);
+    return sorted;
 }
 module.exports = sortByLength;

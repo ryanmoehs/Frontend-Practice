@@ -19,5 +19,6 @@ Output: "tneduts a ma I"
 
 function reverseString(str) {
     // Your code here
+    return str.split("").reverse().join("");
 }
 module.exports = reverseString;
